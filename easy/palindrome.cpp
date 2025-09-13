@@ -1,4 +1,7 @@
 using namespace std;
+#include <iostream>
+#include <vector>
+#include <string>
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -22,3 +25,12 @@ public:
     }
     
 };
+int main() {
+    Solution sol;
+    int num = 121;
+bool result = sol.isPalindrome(num);
+
+    cout << result << endl;
+
+    return 0;
+}
